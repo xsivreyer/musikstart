@@ -8,7 +8,7 @@ description: |
 owner: MUSIKSTART # or company name
 first_published: 2020 # if migrating another site, the year of your first publish
 email: your-email@domain.com
-baseurl: "musikstart" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 social:
   #twitter: 
