@@ -5,4 +5,9 @@
     <url>http://www.musikstart.nl/software.html#1.4.0.0</url>
     <public>true</public>
   </version>
+  <version>
+    <number>1.5.0.0</number>
+    <url>http://www.musikstart.nl/software.html#1.5.0.0</url>
+    <public>true</public>
+  </version>
 </versions>
