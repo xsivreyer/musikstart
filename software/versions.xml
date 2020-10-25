@@ -15,4 +15,5 @@
     <url>http://www.musikstart.nl/software.html#1.6.0.0</url>
     <public>true</public>
   </version>
+  <!-- After 1.7 just continue building up version history -->
 </versions>
