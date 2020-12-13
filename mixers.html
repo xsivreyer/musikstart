@@ -34,6 +34,16 @@ subtitle: Ondersteunde mixers
 		Andere mixers sluiten bij het instarten kortdurig het circuit. Dit noemen we een puls. MUSIKSTART kan beiden oppikken.
 	</p>
 	<hr />
+	<h3>Triggers</h3>
+	<p>
+		In de software kan worden aangegeven bij welke trigger een commando moet worden verstuurd. Als een start/stop commando moet
+		worden verstuurd, dan wordt dit gedaan zodra na de verandering de geconfigureerde waarde actief is.
+		<br />
+		<i>Voorbeeld: Indien 'Tip-Ring HIGH' is aangevinkt, wordt er alleen een signaal naar de app gestuurd als de verbinding van
+		Tip naar Ring van 'open' naar 'gesloten' gaat. Dit zal dan bijvoorbeeld zijn als de fader omhoog gaat. Indien ook 'Tip-Ring LOW' is 
+		aangevinkt, dan volgt tevens een signaal bij de overgang van 'gesloten' naar 'open'.</i>
+	</p>
+	<hr />
 	<h3>Instellingen voor bekende merken mixers</h3>
 	<div class="table-wrapper">
 		<table>
@@ -82,7 +92,7 @@ subtitle: Ondersteunde mixers
 				<tr>
 					<td>Dateq</td>
 					<td>GPM 8.3</td>
-					<td>Gebruik een normale TRS kabel tussen de mengtafel en MUSIKSTART</td>
+					<td>De uitgang van de mixer is een 3.5mm tip-sleeve connector. Maak of gebruik een verloop naar een 6.3mm tip-(ring-)sleeve</td>
 				</tr>
 				<tr>
 					<td>DHD</td>
